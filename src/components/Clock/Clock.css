@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+.App-clock {
+  font-family: 'Pixelify Sans', cursive;
+  color: #00ca43;
+  font-size: 56px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding: 5% 3%;
+  background-color: #1f1f1f;
+  margin: 0 0 2% 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+  border-radius: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.clock_remove {
+  height: 2rem;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 10px;
+  border: none;
+  background-color: #00ca43;
+  color: #1f1f1f;
+  font-weight: 600;
+  display: flex;
+  border-radius: 5px;
+  width: 2rem;
+  justify-content: center;
+  align-items: center;
+  transition: background-color .15s ease-out;
+}
+
+.clock_remove:hover {
+  cursor: pointer;
+  background-color: rgb(18, 98, 0);
+}
